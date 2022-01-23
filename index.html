@@ -2,146 +2,199 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Gift Search clone</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Gift Search clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Gift Search</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Latest Picks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gifts By Occasion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Types of Gifts</a>
-              </li>    
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>    
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>    
-            </ul>
-            <form class="form-inline ml-auto">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search...">
-                <button class="btn btn-success" type="button">Search</button>
-            </form>
+  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gift Search</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Latest Picks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gifts By Occasion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Types of Gifts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search...">
+          <button class="btn btn-success" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="text-center"><span>Who do you want to </span><br /><span class="font-italic">make happy?</span></h1>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="img/happy-cat-pillowcase.jpg" alt="cat pillowcase">
+        <div class="card-body">
+          <h5 class="card-title">Happy Cat Pillowcase</h5>
+          <p class="card-text">Printed with the most content kitty face you'll ever see, this pillowcase (probably
+            being petted out of shot) would lend you some of his happiness when wrappin</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$7.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
+            </div>
           </div>
         </div>
-      </nav>
-    <div class="container">
-      <h1 class="text-center"><span>Who do you want to </span><br /><span class="font-italic">make happy?</span></h1>
-        <div class="card-columns">
-          <div class="card">
-            <img class="card-img-top" src="img/happy-cat-pillowcase.jpg" alt="cat pillowcase">
-            <div class="card-body">
-              <h4 class="card-title">Happy Cat Pillowcase</h4>
-              <p class="card-text">Printed with the most content kitty face you'll ever see, this pillowcase (probably being petted out of shot) would lend you some of his happiness when wrappin</p>
-              <div class="row">
-                <div class="col">
-                  <h3>$7.99</h3>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
-                </div>
-              </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/cube-led-mini-light.jpg" alt="cat pillowcase">
+        <div class="card-body">
+          <h5 class="card-title">Cube LED Mini Light</h5>
+          <p class="card-text">If you can't part from your rubber ducky even outside of the bathtub, why not have one
+            floating in your tea?</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$29.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="img/cube-led-mini-light.jpg" alt="cat pillowcase">
-            <div class="card-body">
-              <h4 class="card-title">Cube LED Mini Light</h4>
-              <p class="card-text">If you can't part from your rubber ducky even outside of the bathtub, why not have one floating in your tea?</p>
-              <div class="row">
-                <div class="col">
-                  <h3>$29.99</h3>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
-                </div>
-              </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/ducky-floating-tea-infuser.jpg" alt="cat pillowcase">
+        <div class="card-body">
+          <h5 class="card-title">Ducky Floating Tea Infuser</h5>
+          <p class="card-text">If you can't part from your rubber ducky even outside of the bathtub, why not have one
+            floating in your tea?</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$7.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="img/ducky-floating-tea-infuser.jpg" alt="cat pillowcase">
-            <div class="card-body">
-              <h4 class="card-title">Ducky Floating Tea Infuser</h4>
-              <p class="card-text">If you can't part from your rubber ducky even outside of the bathtub, why not have one floating in your tea?</p>
-              <div class="row">
-                <div class="col">
-                  <h3>$7.99</h3>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
-                </div>
-              </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/hamburger-cat-bed.jpg" alt="hamburger cat bed">
+        <div class="card-body">
+          <h5 class="card-title">Hamburger cat bed</h5>
+          <p class="card-text">"He's so adorable I want to eat him up!" - have you ever said this? Careful then, this
+            hamburger cat bed will make it hard not to!</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$7.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src="img/hamburger-cat-bed.jpg" alt="hamburger cat bed">
-            <div class="card-body">
-              <h4 class="card-title">Hamburger cat bed</h4>
-              <p class="card-text">"He's so adorable I want to eat him up!" - have you ever said this? Careful then, this hamburger cat bed will make it hard not to!</p>
-              <div class="row">
-                <div class="col">
-                  <h3>$7.99</h3>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="img/portal-interspatial-earrings.jpg" alt="portal earrings">
-            <div class="card-body">
-              <h4 class="card-title">Portal Earrings</h4>
-              <p class="card-text">Even if worn on your ears, these Portal earrings will surely not harm your brain. Well, maybe. Our subjects tend to survive.</p>
-              <div class="row">
-                <div class="col">
-                  <h3>$6.50</h3>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="img/star-wars-han-solo-in-carbonite.jpg" alt="cat pillowcase">
-            <div class="card-body">
-              <h4 class="card-title">Han Solo in Carbonite Decal</h4>
-              <p class="card-text">Forever immortalized in carbonite (at least in the image), Han Solo from Star Wars will look cold and dashing on your wall thanks to this decal.</p>
-              <div class="row">
-                <div class="col">
-                  <h3>$69.99</h3>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        
+        </div>
+      </div>
     </div>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="img/portal-interspatial-earrings.jpg" alt="portal earrings">
+        <div class="card-body">
+          <h5 class="card-title">Portal Earrings</h5>
+          <p class="card-text">Even if worn on your ears, these Portal earrings will surely not harm your brain. Well,
+            maybe. Our subjects tend to survive.</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$6.50</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/star-wars-han-solo-in-carbonite.jpg" alt="cat pillowcase">
+        <div class="card-body">
+          <h5 class="card-title">Han Solo in Carbonite Decal</h5>
+          <p class="card-text">Forever immortalized in carbonite (at least in the image), Han Solo from Star Wars will
+            look cold and dashing on your wall thanks to this decal.</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$69.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/galaxy-case-for-macbook.jpg" alt="cat pillowcase">
+        <div class="card-body">
+          <h5 class="card-title">Galaxy Case for Macbook</h5>
+          <p class="card-text">A practical case with a gorgeous galaxy design, created especially for MacBooks, that
+            protects the screen from bumps and scratches while looking gorgeous</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$39.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/ninjabread-men-cookie-cutters.jpg" alt="cat pillowcase">
+        <div class="card-body">
+          <h5 class="card-title">Ninjabread Men Cookie Cutters (Set of 3)</h5>
+          <p class="card-text">Hey hey, stop fighting in the pan, there's enough space for all of you! Ouf, these ninja
+            gingerbread men are restless, next time we're using sloth shapes.</p>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col">
+              <h3>$39.99</h3>
+            </div>
+            <div class="col">
+              <button type="button" class="btn" style="background-color:#ed522e;color: white;">Check it out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
